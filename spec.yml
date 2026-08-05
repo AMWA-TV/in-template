@@ -1,0 +1,10 @@
+amwa_id: IN-TEMPLATE
+url: https://specs.amwa.tv/inc-template
+name: Template for AMWA Increment Documents
+status: Work In Progress
+repo_name: inc-template
+alt_repo_name:
+repo_url: https://github.com/AMWA-TV/inc-template
+releases:
+default_branch: main
+show_in_index: false
