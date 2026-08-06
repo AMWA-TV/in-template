@@ -1,7 +1,7 @@
 # \[Work In Progress\] AMWA IN-TEMPLATE: Template for AMWA Increment Documents
 
-[![Lint Status](https://github.com/AMWA-TV/inc-template/workflows/Lint/badge.svg)](https://github.com/AMWA-TV/inc-template/actions?query=workflow%3ALint)
-[![Render Status](https://github.com/AMWA-TV/inc-template/workflows/Render/badge.svg)](https://github.com/AMWA-TV/inc-template/actions?query=workflow%3ARender)
+[![Lint Status](https://github.com/AMWA-TV/in-template/workflows/Lint/badge.svg)](https://github.com/AMWA-TV/in-template/actions?query=workflow%3ALint)
+[![Render Status](https://github.com/AMWA-TV/in-template/workflows/Render/badge.svg)](https://github.com/AMWA-TV/in-template/actions?query=workflow%3ARender)
 
 This repository holds the source for this AMWA Increment Document from the [Advanced Media Workflow Association](https://amwa.tv)
 
@@ -20,8 +20,8 @@ This repository holds the source for this AMWA Increment Document from the [Adva
 
 ### How does it work?
 
-- It contains [examples of documentation](docs/) useful in AMWA Increment Documents
+- It contains [examples of documentation](docs/Overview.md) useful in AMWA Increment Documents
 - It provides a style guide and other advice for authors
-- Select `AMWA-TV/inc-template` as the template when creating the new repo
+- Select `AMWA-TV/in-template` as the template when creating the new repo
 
 <!-- INTRO-END -->
