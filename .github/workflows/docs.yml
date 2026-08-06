@@ -17,15 +17,15 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      # Target on the AMWA web server. During zensical evaluation we publish
+      # under /new/ so we don't overwrite the current production site.
+      SPEC_SERVER: specs.amwa.tv
+      SITE_NAME: in-template
     steps:
       # Always check out the ref that triggered the run (or main, for dispatch)
       # so we get the current workflow infrastructure (.github/scripts, etc.).
@@ -76,11 +76,10 @@ jobs:
         continue-on-error: true
         run: lychee --root-dir ./site --verbose --no-progress --accept '100..=103,200..=299,403' --accept-timeouts './site/**/*.html'
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Upload site to AMWA web server
+        env:
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
+        run: ./.github/scripts/upload-site.sh
