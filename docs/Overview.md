@@ -5,11 +5,13 @@ _(c) AMWA 2021, CC Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)_
 
 ## Introduction
 
-Write the Increment using (GitHub Flavoured) Markdown documents.
+Write the text of this Increment using (GitHub Flavoured) Markdown documents where possible.
+
+Put the documents in this directory with bulleted list in a bulleted list in `README.md` in this directory (`/docs/`).
 
 Put diagrams (ideally PNG with encapsulated draw.io source) in the `images/` sub-directory.
 
-Make a bulleted list of documents in `README.md` in this directory.
+Other types of content can be put in sub-directories of this directory, and linked in the Markdown text.
 
 Set the repo name used to get the Lint and Render status in the top-level `README.md` (four changes needed).
 
