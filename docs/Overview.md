@@ -1,11 +1,11 @@
-# AMWA IN-TEMPLATE: Template for AMWA Increment Documents
+# AMWA IN-TEMPLATE: Template for AMWA Increments
 
 
 _(c) AMWA 2021, CC Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)_
 
 ## Introduction
 
-Write the Increment Document using (GitHub Flavoured) Markdown documents.
+Write the Increment using (GitHub Flavoured) Markdown documents.
 
 Put diagrams (ideally PNG with encapsulated draw.io source) in the `images/` sub-directory.
 
