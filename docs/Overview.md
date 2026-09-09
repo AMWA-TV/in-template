@@ -1,7 +1,7 @@
 # AMWA IN-TEMPLATE: Template for AMWA Increments
 
 
-_(c) AMWA 2021, CC Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)_
+_(c) AMWA 2026, CC Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)_
 
 ## Introduction
 
