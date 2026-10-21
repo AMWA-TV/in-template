@@ -1,0 +1,28 @@
+{
+  "amwa_id": "IN-TEMPLATE",
+  "url": "https://specs.amwa.tv/in-template",
+  "name": "Template for AMWA Increments",
+  "status": "Work In Progress",
+  "repo_name": "in-template",
+  "alt_repo_name": null,
+  "repo_url": "https://github.com/AMWA-TV/in-template",
+  "releases": null,
+  "default_branch": "main",
+  "show_in_index": false,
+  "intro": {
+    "what_does_it_do": [
+      "Provides a template for creating new AMWA Increments"
+    ],
+    "why_does_it_matter": [
+      "AMWA Increments (IN-xxx) record incremental outputs of AMWA activity phases",
+      "They may stand on their own or be referenced by other documents, such as the NMOS specifications",
+      "This template helps ensure consistency between Increments.",
+      "It also helps us test our continuous integration."
+    ],
+    "how_does_it_work": [
+      "It contains [examples of documentation](docs/Overview.md) useful in AMWA Increments",
+      "It provides a style guide and other advice for authors",
+      "Select `AMWA-TV/in-template` as the template when creating the new repo"
+    ]
+  }
+}

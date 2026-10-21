@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "repository": "AMWA-TV/in-template",
+  "documents": [
+    {
+      "title": "Page not found",
+      "url": "https://specs.amwa.tv/new/in-template/latest/404/",
+      "text": "Page not found Page not found Page not found - IN-TEMPLATE Skip to content Page not found The page you requested could not be found. Return to the documentation home Back to top",
+      "repository": "AMWA-TV/in-template"
+    },
+    {
+      "title": "AMWA IN-TEMPLATE: Template for AMWA Increments",
+      "url": "https://specs.amwa.tv/new/in-template/latest/Overview/",
+      "text": "AMWA IN-TEMPLATE: Template for AMWA Increments AMWA IN-TEMPLATE: Template for AMWA Increments Introduction AMWA IN-TEMPLATE: Template for AMWA Increments - IN-TEMPLATE Skip to content AMWA IN-TEMPLATE: Template for AMWA Increments (c) AMWA 2026, CC Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) Introduction Write the text of this Increment using (GitHub Flavoured) Markdown documents where possible. Put the documents in this directory and list any important entry points in the repository-root README.md . Put diagrams (ideally PNG with encapsulated draw.io source) in the images/ sub-directory. Other types of content can be put in sub-directories of this directory, and linked in the Markdown text. Update the repository name in the badges and repository links in the top-level README.md when creating a new Increment. The Zensical documentation workflow generates the rendered landing page from this file. Set the value of amwa_id in .render/_config.yml to the AMWA-assigned ID. Back to top",
+      "repository": "AMWA-TV/in-template"
+    },
+    {
+      "title": "README",
+      "url": "https://specs.amwa.tv/new/in-template/latest/images/",
+      "text": "README README README - IN-TEMPLATE Skip to content README This directory is for images used in documentation Back to top",
+      "repository": "AMWA-TV/in-template"
+    },
+    {
+      "title": "[Work In Progress] AMWA IN-TEMPLATE: Template for AMWA Increments",
+      "url": "https://specs.amwa.tv/new/in-template/latest/",
+      "text": "[Work In Progress] AMWA IN-TEMPLATE: Template for AMWA Increments [Work In Progress] AMWA IN-TEMPLATE: Template for AMWA Increments What does it do? Why does it matter? How does it work? [Work In Progress] AMWA IN-TEMPLATE: Template for AMWA Increments - IN-TEMPLATE Skip to content [Work In Progress] AMWA IN-TEMPLATE: Template for AMWA Increments This repository holds the source of a work artifact published as an AMWA Increment (IN) from the Advanced Media Workflow Association What does it do? Provides a template for creating new AMWA Increments Why does it matter? AMWA Increments (IN-xxx) record incremental outputs of AMWA activity phases They may stand on their own or be referenced by other documents, such as the NMOS specifications This template helps ensure consistency between Increments. It also helps us test our continuous integration. How does it work? It contains examples of documentation useful in AMWA Increments It provides a style guide and other advice for authors Select AMWA-TV/in-template as the template when creating the new repo This work artifact is published as an AMWA Increment (IN) . Increments are intended to make public the ongoing progress of a working group without locking decisions into a formal specification. While the technical details contained in this repository do not constitute a stable or finalized specification, readers should note that Increments are Draft Specifications as defined in the AMWA IPR Policy. The provisions of the policy apply, including the requirement for early disclosure. You can expect the content to evolve incrementally based on ongoing testing, consensus-building, and community input. Public review is encouraged! Please post an Issue to the Repo to submit questions, feedback, or propose changes. Back to top",
+      "repository": "AMWA-TV/in-template"
+    }
+  ]
+}
