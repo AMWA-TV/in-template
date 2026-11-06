@@ -3,12 +3,6 @@
   "repository": "AMWA-TV/in-template",
   "documents": [
     {
-      "title": "Page not found",
-      "url": "https://specs.amwa.tv/in-template/latest/404/",
-      "text": "Page not found Page not found Page not found - IN-TEMPLATE Skip to content Page not found The page you requested could not be found. Return to the documentation home Back to top",
-      "repository": "AMWA-TV/in-template"
-    },
-    {
       "title": "AMWA IN-TEMPLATE: Template for AMWA Increments",
       "url": "https://specs.amwa.tv/in-template/latest/Overview/",
       "text": "AMWA IN-TEMPLATE: Template for AMWA Increments AMWA IN-TEMPLATE: Template for AMWA Increments Introduction AMWA IN-TEMPLATE: Template for AMWA Increments - IN-TEMPLATE Skip to content AMWA IN-TEMPLATE: Template for AMWA Increments (c) AMWA 2026, CC Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) Introduction Write the text of this Increment using (GitHub Flavoured) Markdown documents where possible. Put the documents in this directory and list any important entry points in the repository-root README.md . Put diagrams (ideally PNG with encapsulated draw.io source) in the images/ sub-directory. Other types of content can be put in sub-directories of this directory, and linked in the Markdown text. Update the repository name in the badges and repository links in the top-level README.md when creating a new Increment. The Zensical documentation workflow generates the rendered landing page from this file. Set the value of amwa_id in .render/_config.yml to the AMWA-assigned ID. Back to top",
