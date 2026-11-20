@@ -16,3 +16,6 @@ Other types of content can be put in sub-directories of this directory, and link
 Update the repository name in the badges and repository links in the top-level `README.md` when creating a new Increment. The Zensical documentation workflow generates the rendered landing page from this file.
 
 Set the value of `amwa_id` in `.render/_config.yml` to the AMWA-assigned ID.
+
+> [!NOTE]
+> This sample GitHub-style callout can be adapted or removed when creating a new Increment.
